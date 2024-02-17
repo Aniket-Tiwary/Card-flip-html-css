@@ -1,0 +1,56 @@
+.card-back{
+    transform: rotateY(180deg);
+}
+
+.back-header{
+    font-size: 12px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-strip{
+   background-color: gray;
+   height: 50px; 
+}
+
+.security-strip{
+    height: 60px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.security-strip{
+    margin-top: 20px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.strip{
+    height: 40px;
+    width: 360px;
+    border-radius: 10px;
+}
+
+.security-code{
+    background-color: white;
+    color: black;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    padding: 0px 4px;
+    border-radius: 4px;
+    margin-left: -4px;
+}
+
+.info{
+    margin-top: 30px;
+    font-size: 12px;
+    display: flex;
+    padding: 0px 25px;
+}
